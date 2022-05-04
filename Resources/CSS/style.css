@@ -90,6 +90,11 @@ section{
 .daniel{
     background-color: var(--Moderate-violet);
     box-shadow: -4px 10px 15px -9px rgba(128, 128, 128, 0.5);
+    background-image: url(../Images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: 0;
+    background-position-x: 250px;
 }
 .jonathan{
     background-color: var(--Very-dark-grayish-blue);
@@ -146,6 +151,8 @@ section{
         grid-row-end: 1;
         grid-column-start: 1;
         grid-column-end: 3;
+        background-position-y: 0;
+        background-position-x: 400px;
     }
     .jeanette{
         grid-row-start: 2;
@@ -164,3 +171,4 @@ section{
         grid-column-end: 4;
     }
 }
+
